@@ -1,0 +1,38 @@
+:root, body {
+ padding: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #27e112;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #ff8b26;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  
+}
